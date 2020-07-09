@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+vector<string> split_string(string);
+
+// Complete the hackerlandRadioTransmitters function below.
+int hackerlandRadioTransmitters(vector<int> x, int k) {
+    sort(x.begin() , x.end()) ;
+    float size = k*2 + 1 ;
+    cout <<ceil(*x.end()+1- *x.begin <<endl; 
+    return ceil(*x.end()+1- *x.begin()/size) ; 
+}
+
+int main()
+
